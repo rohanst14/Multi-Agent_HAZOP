@@ -1,4 +1,4 @@
-# Multi-Agent HAZOP | Haznova
+# HAZOP Automation through Multi-Agent Collaboration
 
 **LLM-assisted hazard and operability studies for process systems**
 
