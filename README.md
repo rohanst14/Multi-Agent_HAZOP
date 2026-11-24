@@ -6,7 +6,7 @@ A research implementation of a structured multi-agent HAZOP workshop. The backen
 
 ## Multi-Agent HAZOP Framework
 
-![Multi-Agent HAZOP Framework](docs/HAZOP%20Framework.png)
+![Multi-Agent HAZOP Framework](docs/hazop-framework-white.png)
 
 *Framework overview of HAZOP automation through multi-agent collaboration.*
 
