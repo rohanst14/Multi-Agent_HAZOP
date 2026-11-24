@@ -23,9 +23,7 @@ The review protocol separates scenario credibility from safeguard and action qua
 
 ## Setup and verification
 
-Python 3.10+ recommended. 
-API keys are required for running the code.
-From the repository root:
+Python 3.10+ recommended. From the repository root:
 
 ```bash
 python -m venv .venv
@@ -35,7 +33,7 @@ python -m compileall -q src
 python src/pid_parser.py path/to/drawing.png
 ```
 
-Install the Tesseract executable separately for OCR. The backend uses Python standard-library HTTP clients for OpenAI, Anthropic, Gemini and Ollama. Model availability and credentials depend on the configured provider.
+Install the Tesseract executable separately for OCR. The backend uses Python standard-library HTTP clients for OpenAI, Anthropic, Gemini and Ollama. Model availability and credentials depend on the configured provider. 
 
 The backend expects its browser assets in `src/static/`; those assets were not supplied with this source release. Once the original frontend is present, start with `python src/hazop_backend.py` (default localhost port 8010). The separate CV parser can be exercised independently.
 
