@@ -10,7 +10,7 @@ A research implementation of a structured multi-agent HAZOP workshop. The backen
 
 *Framework overview of HAZOP automation through multi-agent collaboration.*
 
-The review protocol separates scenario credibility from safeguard and action quality. Agreement is tracked separately from technical validity; incomplete review coverage and dissent are retained. The standalone P&ID parser provides local CV/OCR and optional vision-model fusion.
+The review protocol separates scenario credibility from safeguard and action quality. Agreement is tracked separately from technical validity; incomplete review coverage and dissent are retained. The standalone P&ID parser provides local CV/OCR and vision-model fusion.
 
 ## Source code
 
@@ -23,7 +23,9 @@ The review protocol separates scenario credibility from safeguard and action qua
 
 ## Setup and verification
 
-Python 3.10+ recommended. From the repository root:
+Python 3.10+ recommended. 
+API keys are required for running the code.
+From the repository root:
 
 ```bash
 python -m venv .venv
