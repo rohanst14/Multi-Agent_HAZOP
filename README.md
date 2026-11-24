@@ -6,19 +6,9 @@ A research implementation of a structured multi-agent HAZOP workshop. The backen
 
 ## Multi-Agent HAZOP Framework
 
-```mermaid
-flowchart TD
-  A["P&ID and process / procedure documents"] --> B["Image evidence and process understanding"]
-  B --> C["Chair: node planning and guideword effects"]
-  C --> D["Round 1: independent expert scenarios"]
-  D --> E["Chair consolidation and scenario lineage"]
-  E --> F["Round 2A: exhaustive panel review"]
-  F --> G{"Disputed scenario?"}
-  G -->|Yes| H["Round 2B: targeted discussion"]
-  G -->|No| I["Round 3: chair adjudication"]
-  H --> I
-  I --> J["Worksheet, actions and report"]
-```
+![Multi-Agent HAZOP Framework](docs/HAZOP%20Framework.png)
+
+*Framework overview of HAZOP automation through multi-agent collaboration.*
 
 The review protocol separates scenario credibility from safeguard and action quality. Agreement is tracked separately from technical validity; incomplete review coverage and dissent are retained. The standalone P&ID parser provides local CV/OCR and optional vision-model fusion.
 
