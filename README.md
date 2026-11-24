@@ -4,7 +4,7 @@
 
 A research implementation of a structured multi-agent HAZOP workshop. The backend coordinates a panel chair, P&ID image parser, five engineering specialists and a scribe/report agent, retaining scenario lineage, review decisions and evidence.
 
-## Study workflow
+## Multi-Agent HAZOP Framework
 
 ```mermaid
 flowchart TD
